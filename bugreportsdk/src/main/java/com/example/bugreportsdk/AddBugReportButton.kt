@@ -17,7 +17,7 @@ class AddBugReportButton(){
             val viewGroup =
                 (myActivity.findViewById(android.R.id.content) as ViewGroup).getChildAt(0) as ViewGroup
 
-            val floatingButton = TextView(myContext)
+            val floatingButton = FloatingActionButton(myContext)
 
             //TODO different layout types would have different layout_params
 
@@ -28,7 +28,7 @@ class AddBugReportButton(){
                 )
             )
 
-            floatingButton.text = "Sfgsfgsfg"
+
 
             viewGroup.addView(floatingButton)
         }
